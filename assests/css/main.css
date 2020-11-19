@@ -71,6 +71,36 @@ input::-moz-focus-inner {
 	
 }
 
+.morality-div{
+	display: flex;
+}
+
+.morality-image{
+	width: 65%;
+	overflow: hidden;
+}
+
+.morality-image img {
+	width: 100%;
+}
+
+.morality-image video {
+	width: 100%;
+}
+
+.morality-text{
+	width: 35%;
+	padding: 30px;
+}
+
+.morality-text a {
+
+text-decoration: none;
+border-bottom: 0px;
+color: #2d4625;
+}
+
+
 input, select, textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
@@ -2970,7 +3000,7 @@ input, select, textarea {
 		/* Image */
 
 			.image.left, .image.right {
-				max-width: 40%;
+				max-width: 60%;
 			}
 
 				.image.left img, .image.right img {
